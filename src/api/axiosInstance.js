@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://goskilled-backend-7ux9.onrender.com",
 });
 
 export default axiosInstance;
